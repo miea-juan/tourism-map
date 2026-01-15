@@ -1,0 +1,86 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "id" : "id",
+    "name" : "name",
+    "travel" : "travel",
+    "describe" : "describe",
+    "budget" : "budget",
+    "consumption" : "consumption",
+    "other" : "other",
+    "plantime" : "plantime"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkid" : 4490,
+    "latestWkid" : 4490
+  },
+  "fields" : [
+    {
+      "name" : "id",
+      "type" : "esriFieldTypeString",
+      "alias" : "id",
+      "length" : 256
+    },
+    {
+      "name" : "name",
+      "type" : "esriFieldTypeString",
+      "alias" : "name",
+      "length" : 50
+    },
+    {
+      "name" : "travel",
+      "type" : "esriFieldTypeString",
+      "alias" : "travel",
+      "length" : 50
+    },
+    {
+      "name" : "describe",
+      "type" : "esriFieldTypeString",
+      "alias" : "describe",
+      "length" : 50
+    },
+    {
+      "name" : "budget",
+      "type" : "esriFieldTypeString",
+      "alias" : "budget",
+      "length" : 50
+    },
+    {
+      "name" : "consumption",
+      "type" : "esriFieldTypeString",
+      "alias" : "consumption",
+      "length" : 50
+    },
+    {
+      "name" : "other",
+      "type" : "esriFieldTypeString",
+      "alias" : "other",
+      "length" : 50
+    },
+    {
+      "name" : "plantime",
+      "type" : "esriFieldTypeDate",
+      "alias" : "plantime",
+      "length" : 8
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "id" : "1",
+        "name" : "红山动物园",
+        "travel" : "南京",
+        "describe" : "很好的动物园",
+        "budget" : "1000",
+        "consumption" : null,
+        "other" : "去看嘟嘟",
+        "plantime" : 1765584000000
+      },
+      "geometry" : {
+        "x" : 118.77616849800006,
+        "y" : 32.08913917600006
+      }
+    }
+  ]
+}
